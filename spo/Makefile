@@ -5,4 +5,4 @@ spo.pdf: spo.tex
 .PHONY: clean spo.pdf
 
 clean:
-	rm -f spo.out spo.log spo.aux spo.pdf
+	rm -f spo.out spo.log spo.aux
