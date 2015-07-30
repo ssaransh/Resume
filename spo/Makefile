@@ -1,7 +1,6 @@
 spo.pdf: spo.tex
 	xelatex spo.tex
 	xelatex spo.tex
-	evince spo.pdf
 
 .PHONY: clean spo.pdf
 
