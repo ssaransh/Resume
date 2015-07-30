@@ -1,0 +1,152 @@
+\documentclass[a4paper,10pt]{article}
+%-----------------------------------------------------------
+\usepackage[top=0.25in, bottom=0.in, left=0.15in, right=0.45in]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.75}
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey}{\begin{minipage}{0.975\textwidth}{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+        \textsc{{\textbf{#1}}} & \textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+
+\begin{document}
+\hspace{0.5cm}\\[-0.2cm]
+
+\textbf{\LARGE \textsc{Abhimanyu Goyal}}\\
+\indent Third Year Undergraduate Student\hfill
+Email: \textbf{abhimanyu.gtn@gmail.com}|
+Ph.: \textbf{(91)7753058917} \\
+
+\resheading{\textbf{ACADEMIC DETAILS} }\\[\lsep]
+\\ \\
+%\begin{table}[ht!]
+%\begin{center}
+\indent \begin{tabular}{ L{3cm} L{6cm} L{8cm} L{2cm} }
+\hline
+\textbf{YEAR} & \textbf{DEGREE} & \textbf{INSTITUTE}  & \textbf{CPI/\%} \\
+\hline
+
+2013-present & B-Tech \emph{Electrical Engineering} & IIT Kanpur & 8.3/10 \\
+2013 & Class XII-CBSE & Jawaharlal Nehru School, Bhopal  & 92\% \\
+2011 & Class X-CBSE & Jawaharlal Nehru School, Bhopal & 10/10 \\
+\hline
+\end{tabular}
+%\end{center}
+%\end{table}
+\\ \\
+
+\resheading{\textbf{FIELDS OF INTEREST} }\\[\lsep]
+\begin{itemize}\itemsep\isep
+\item \noindent Currently, I am actively exploring material on \textbf{machine learning}, \textbf{natural language processing} and \textbf{data mining}.
+\end{itemize}
+
+\resheading{\textbf{ACHIEVEMENTS} }\\[\lsep]
+\begin{itemize}\itemsep \isep
+\item \noindent Secured \textbf{All India Rank 542} in JEE Advanced 2013 among 1,50,000 students.
+\item \noindent Selected in \textbf{SCRA 2013}, Level 1.
+\item \noindent Selected in \textbf{KVPY 2013}.
+\item \noindent Achieved \textbf{All  World Rank 1} in Australian Chemistry Quiz, 2008.
+\item \noindent Qualified for the final level of \textbf{NTSE 2010}.
+
+\end{itemize}
+
+\resheading{\textbf{WORK EXPERIENCE} }\\[\lsep]
+\begin{itemize}
+\item\noindent Research Intern at SearchX (Bangalore based start-up)\hfill\emph{May'15-July'15}
+\vspace{-2mm}
+\begin{itemize}\itemsep \isep
+\item \noindent Developed a system for ranking named entities in news articles based on their importance.\\
+- Tagged named entities in articles into person, location and organization using Stanford's NLP Library\\
+- Engineered several features to give relative importance to entities\\
+- Used labelled data to train support vector based algorithm to give appropriate weights to the features\\\vspace{-4mm}
+\item \noindent Developed a system to identify wikipedia articles which describe an event in the past\\
+- Used bag of words model, bi-grams and tf-idf scores to train a support vector based classifier\\
+- Assessed how the results generalize to an independent data set using k-fold validation technique
+\end{itemize}
+\end{itemize}
+
+
+
+
+
+
+
+\resheading{\textbf{TECHNICAL SKILLS} }\\[\lsep]
+\begin{itemize}\itemsep\isep
+\item \noindent \textbf{Languages} : C, Java, Python, Scala
+\item \noindent \textbf{Tools} : IntelliJ IDE,  mercurial/git, GNU Octave
+\item \noindent \textbf{Platforms} : Windows, Linux, Mac OS
+\end{itemize}
+
+
+
+
+
+
+\resheading{\textbf{POSITIONS OF RESPONSIBILITY/EXTRA-CURRICULARS} }\\[\lsep]
+\begin{itemize}\itemsep \isep
+\item \noindent Secretary, English Literary Society,IIT Kanpur.
+\item \noindent Principal security officer in Techkriti 2015,IITK
+\item \noindent Senior security officer in Techkriti 2014,IITK.
+\item \noindent Won 1st prize in Gearloose event, Takneek 2013.
+\item \noindent Member of FSAE,IITK (Formula Society of Automotive Engineers)
+\end{itemize}
+
+\resheading{\textbf{RELEVANT COURSES TAKEN} }\\[\lsep]
+\begin{itemize}
+\item Fundamentals of Computing , Real and Complex Analysis, Linear Algebra, Introduction to Electronics, Signals ,Systems and Networks, Partial Differential Equations, Microelectronics, Control System Analysis, Probability and Statistics
+
+\item \textbf{Ongoing} : Data Structures and Algorithms, Digital Electronics, Digital Communications, Power Systems
+
+
+
+\end{itemize}
+
+
+
+\resheading{\textbf{STRENGTHS} }\\[\lsep]
+\begin{itemize}
+\item \noindent Have objective opinions, Quick learner, Consistent, Compassionate, Pragmatic, Honest.
+\end{itemize}
+
+
+
+
+\resheading{\textbf{INTEREST AND HOBBIES} }\\[\lsep]
+\begin{itemize}\itemsep\isep
+\item \noindent I am a \textbf{tech enthusiast}, with major interest in mobile technology, mobile apps, \textbf{machine learning}.
+
+\item \noindent Quizzes: Active member of school quiz team which won many inter-school quiz competition.
+
+\item \noindent Cooking, Bowling, Driving and Watching movies.
+
+\end{itemize}
+
+\end{document}
